@@ -21,7 +21,7 @@ const User = mongoose.model('User', userSchema);
 
 // 4. Database Connection (Teammate will need to ensure MongoDB server is running)
 // 4. Database Connection (USING MONGODB ATLAS)
-const ATLAS_URI = 'mongodb+srv://prateekgarg24cse_db_user:taskify1234@taskify.z5wavto.mongodb.net/?appName=Taskify'; // Replace <...> with your saved credentials!
+const ATLAS_URI = 'mongodb+srv://<username>:<password>@taskify.z5wavto.mongodb.net/?appName=Taskify'; // Replace <...> with your saved credentials!
 
 mongoose.connect(ATLAS_URI, { // <-- ADD THIS SECOND ARGUMENT
     useNewUrlParser: true,
@@ -217,4 +217,5 @@ app.delete('/api/events/:id', async (req, res) => {
 // 8. Start server
 app.listen(PORT, () => {
     console.log(`Server is running! Access your site at: http://localhost:${PORT}`);
+
 });
