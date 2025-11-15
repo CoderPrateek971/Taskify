@@ -1,0 +1,26 @@
+{
+    "version": "2.0",
+    "lastUpdated": "2025-10-29T12:00:00.000Z",
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Complete event planner UI",
+        "completed": false,
+        "date": "29/10/2025"
+      },
+      {
+        "id": 2,
+        "title": "Review JS control flow questions",
+        "completed": true,
+        "date": "28/10/2025"
+      },
+      {
+        "id": 3,
+        "title": "Test Taskify JSON integration",
+        "completed": false,
+        "date": "29/10/2025"
+      }
+      
+    ]
+  }
+  

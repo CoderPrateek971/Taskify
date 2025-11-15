@@ -1,0 +1,19 @@
+{
+    "version": "1.0",
+    "lastUpdated": "2025-10-29T00:00:00.000Z",
+    "events": [
+      {
+        "id": 1,
+        "title": "Web Dev Figma Evaluation",
+        "date": "2025-09-15",
+        "time": "09:45"
+      },
+      {
+        "id": 2,
+        "title": "DLD Quiz",
+        "date": "2025-09-23",
+        "time": "17:30"
+      }
+    ]
+  }
+  
